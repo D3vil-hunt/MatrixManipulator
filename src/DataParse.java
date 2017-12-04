@@ -29,7 +29,8 @@ public class DataParse {
             TestMatrix.prompt(temp);
             assocation.put(temp, new Matrix(TestMatrix.row,TestMatrix.column));
         }
-        
+        System.out.println(Arrays.toString(operators));
+        System.out.println( Arrays.toString(operands).trim());
     }
     
 }

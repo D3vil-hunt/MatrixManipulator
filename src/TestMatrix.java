@@ -65,9 +65,9 @@ public class TestMatrix
                         break;
                         
                     case 5:
-                        prompt();
-                        
-                        
+                        System.out.println("please enter the equation.");
+                        input.nextLine(); //clear buffer.
+                        DataParse.parseOp(input.nextLine());
                 }
             }
             
