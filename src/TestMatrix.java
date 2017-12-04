@@ -16,7 +16,7 @@ public class TestMatrix
 	{
             Scanner input = new Scanner(System.in);
             System.out.println("Welcome to the matrix calculator.");
-            System.out.printf("%s%n%s%n%s%n%s%n%s%n%s%n","Please select one of the following options.","1- Adjoint","2- Co-Factor","3- Determinant", "4- Inverse", "Press ctrl+z to exit");
+            System.out.printf("%s%n%s%n%s%n%s%n%s%n%s%n%s%n","Please select one of the following options.","1- Adjoint","2- Co-Factor","3- Determinant", "4- Inverse", "5- Solve Expression", "Press ctrl+z to exit");
             //Input for switch case. whic is used to select the opration to perform
             while(input.hasNext())
             {
@@ -63,6 +63,10 @@ public class TestMatrix
                         System.out.println("The matrix is : ");
                         Matrix.print(Matrix.findInverse(Matrix.findDeterminant(row, temp.getData(), row) , Matrix.adjoint(temp.getData(),temp.getRow() ) ) );
                         break;
+                        
+                    case 5:
+                        prompt();
+                        
                         
                 }
             }

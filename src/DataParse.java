@@ -2,8 +2,8 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
- */
-package Matrix_Manipulator;
+ *
+*/
 
 /**
  *
@@ -24,8 +24,6 @@ public class DataParse {
         assocation.clear();
         String[] operators = op.split("[-+*/]");
         String[] operands = op.split("[a-zA-Z]+");
-        //System.out.print(Arrays.toString(operators));
-        //System.out.print(Arrays.toString(operands));
         for(String temp : operators)
         {
             TestMatrix.prompt(temp);
