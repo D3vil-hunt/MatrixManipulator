@@ -1,7 +1,7 @@
 # MatrixManipulator
 
 This is just an experiment for fun. It performs various fundamental operations on matrices. The main objective of this project is to
-develop a scalable program whic can perform elementary matrix operations eg: adding, multiplying, dividing & substracting two matrices
+develop a scalable program which can perform elementary matrix operations eg: adding, multiplying, dividing & substracting two matrices
 finding inverse of a matrix etc.
 
 There are two halves of this project one that deals with the matrix manipulation and the other is for the data input. The input can be provided
